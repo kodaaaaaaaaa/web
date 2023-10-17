@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .data-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .data-group {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 10px 0;
+            max-width: 600px;
+        }
+        .data-group h2 {
+            margin-bottom: 10px;
+        }
+        .data-list {
+            list-style: none;
+            padding: 0;
+        }
+        .data-item {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Data Information</h1>
+    <div class="data-container">
+        <div class="data-group">
+            <h2>Client Data</h2>
+            <ul class="data-list">
+                <li class="data-item">ClientIP</li>
+                <li class="data-item">ClientUA</li>
+                <li class="data-item">ClientIpInfo</li>
+                <ul>
+                    <li class="data-item">IpVersion</li>
+                    <li class="data-item">IpAddress</li>
+                    <li class="data-item">Latitude</li>
+                    <li class="data-item">Longitude</li>
+                    <li class="data-item">CountryName</li>
+                    <li class="data-item">CountryCode</li>
+                    <li class="data-item">TimeZone</li>
+                    <li class="data-item">ZipCode</li>
+                    <li class="data-item">CityName</li>
+                    <li class="data-item">RegionName</li>
+                    <li class="data-item">Continent</li>
+                    <li class="data-item">ContinentCode</li>
+                </ul>
+            </ul>
+        </div>
+        <div class="data-group">
+            <h2>Server Data</h2>
+            <ul class="data-list">
+                <li class="data-item">ServerInfo</li>
+                <ul>
+                    <li class="data-item">Hostname</li>
+                    <li class="data-item">OS</li>
+                    <li class="data-item">KernelVersion</li>
+                    <li class="data-item">Memory</li>
+                </ul>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
